@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a href="home.html" class="logo">Educa.</a>
+
+            <form action="/" method="post" class="search-form">
+                <input type="text" name="search-box" placeholder="search courses..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box"></button>
+            </form>
+
+            <div class="icons">
+                <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+                <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button id="user-btn"><i class="fa-solid fa-user"></i></button>
+                <button id="toggle-btn"><i class="fa-solid fa-gear"></i></button>
+            </div>
+
+            <div class="profile">
+                <img src="Images/pic-1.jpg">
+                <h3>shaikh anas</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="login.html" class="option-btn">login</a>
+                    <a href="register.html" class="option-btn">register</a>
+                </div>
+            </div>
+        </section>
+
+        <div class="side-bar">
+            <div class="close-side-bar">
+                <i class="fa-solid fa-x"></i>
+            </div>
+            <div class="profile">
+                <img src="Images/pic-1.jpg">
+                <h3>shaikh anas</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="navbar">
+                    <a href="home.html"><i class="fa-solid fa-house"></i><span>home</span></a>
+                    <a href="about.html"><i class="fa-solid fa-question"></i><span>about us</span></a>
+                    <a href="courses.html"><i class="fa-solid fa-graduation-cap"></i><span>courses</span></a>
+                    <a href="teachers.html"><i class="fa-solid fa-chalkboard-user"></i><span>teachers</span></a>
+                    <a href="contact.html"><i class="fa-solid fa-phone"></i><span>contact us</span></a>
+                </div>
+            </div>
+        </div>
+
+        <section class="course">
+            <h1 class="heading">Our Courses</h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="Images/thumb-1.png" class="thumb">
+                    <h3 class="title">Complete HTML Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/thumb-2.png" class="thumb">
+                    <h3 class="title">Complete CSS Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/thumb-3.png" class="thumb">
+                    <h3 class="title">Complete JS Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+    
+                <div class="box">
+                    <img src="Images/thumb-4.png" class="thumb">
+                    <h3 class="title">Complete BOOTSTRAP Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/thumb-5.png" class="thumb">
+                    <h3 class="title">Complete JQUERY Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/thumb-6.png" class="thumb">
+                    <h3 class="title">Complete SASS Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/thumb-7.png" class="thumb">
+                    <h3 class="title">Complete PHP Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/thumb-8.png" class="thumb">
+                    <h3 class="title">Complete My SQL Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+
+                <div class="box">
+                    <img src="Images/thumb-9.png" class="thumb">
+                    <h3 class="title">Complete REACT Tutorial</h3>
+                    <a href="playlist.html" class="inline-btn">view playlist</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div>&copy; copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!</div>
+        </footer>
+    </header>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
